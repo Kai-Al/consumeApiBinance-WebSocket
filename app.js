@@ -27,3 +27,5 @@ webSocket.onmessage = function(event) {
     stockPrice.style.color = !lastPrice ? 'black' : lastPrice > stockObject.p ? 'red' : 'green';
     lastPrice = stockObject.p;
 }
+
+//Explicar las cabeceras de los webSockets.
